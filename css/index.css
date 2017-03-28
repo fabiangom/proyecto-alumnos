@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #ecf0f1;
+  font-family: "Lato", sans-serif; }
+
+.content-header {
+  background-color: #34495e;
+  display: flex;
+  flex-flow: row wrap; }
+
+.sec-logo {
+  width: 20%;
+  margin: 10px 0px 10px 10px; }
+  .sec-logo img {
+    width: 100%;
+    height: auto; }
+
+.sec-title {
+  display: flex;
+  align-items: center; }
+  .sec-title h1 {
+    width: 100%;
+    color: white;
+    margin-left: 20px; }
+
+.content-main {
+  margin: 20px 0 20px 0; }
+  .content-main h2 {
+    text-align: center; }
+  .content-main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .content-main label {
+    font-size: 18px;
+    margin: 10px 0 10px 0; }
+  .content-main input {
+    border-radius: 3px; }
+
+button {
+  margin-top: 10px;
+  padding: 2px 2px;
+  border-radius: 3px;
+  background-color: #f1c40f; }
+
+.content-footer {
+  background-color: #34495e;
+  display: flex;
+  height: auto;
+  flex-flow: row wrap;
+  justify-content: center; }
+  .content-footer a {
+    color: white; }
+    .content-footer a i {
+      font-size: 20px; }
+
+/*# sourceMappingURL=index.css.map */
